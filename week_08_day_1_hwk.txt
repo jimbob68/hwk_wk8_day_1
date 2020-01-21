@@ -1,0 +1,15 @@
+1)	create_router.js in server is responsible for the routes
+
+2) 	Client  is responsible for mainly the user (view) side of things, the input, requiring, querying and the modifying of data. Server is in control of the data side of the  application. 
+
+3)	Server.js is responsible for requiring all the components needed for the database to be 	accessed and to listen out for requests from the client and respond accordingly.
+
+4) 	gamesRouter, is responsible for the accessing the games data. 	
+
+5)	A fetch request.
+
+6)	A fetch request takes a resource and an init (optional) which could be a method (get,post,delete), etc. It is used in GamesService.js to fetch the URL, and also with a POST method and in another instance it uses id with a DELETE method
+
+7)	getGames
+
+8)	It allows callback based and promised based interaction with mongoDB and it provides compatibility with older versions and support for shared CRUD API specification.
